@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulir PPDB Jalur Zonasi Tahun 2020</title>
+</head>
+<style>
+.style{
+    background: whitesmoke;
+    color: rgb(7, 7, 7);
+    border: 2px solid black;
+    margin: 20px;
+    padding: 10px;
+    margin-left: auto;
+}
+</style>
+
+<body>
+    <body style="background: url(v633-wan-01d-glitternoted.jpg);"></body>
+    <h1 style="text-align: center;">Formulir PPDB JALUR ZONASI TAHUN 2020</h1>
+    <hr>
+
+    <form action="" method="POST">
+
+        <p><b>INFO PENDAFTARAN :</b></p>
+
+        <div class="style">
+            <label for="nisn">1. NISN</label><br>
+            <input type="number" id="nisn"  name="nisn" placeholder="001xxxx"><br><br>
+
+            <label for="asekolah">2. Asal Sekolah</label><br>
+            <input type="text" id="asekolah" name="asekolah" ><br><br>
+
+            <label for="tlulus">3. Tahun Lulus</label><br>
+            <input type="number" id="tlulus" name="tlulus" ><br><br>
+
+            <label><i>(lampirkan foto copy ijazah)</i></label><br>
+            <div class="choose_file">
+            <input name="img" type="file"><br><br>
+            </div>
+        </div>
+
+        <p><b>DATA CALON PESERTA :</b></p>
+
+        <div class="style">
+            <label for="nlengkap">4. Nama Lengkap</label><br>
+            <input type="text" id="nlengkap" name="nlengkap"><br><br>
+
+            <label for="nik">5. NIK</label><br>
+            <input type="number" id="nik" name="nik" placeholder="333xxxx"><br><br>
+
+            <label for="ttl">6. Tempat/Tanggal Lahir</label><br>
+            <input type="text" id="ttl" name="ttl"> <input type="date" id="ttl" name="ttl"><br><br>
+
+            <label><i>foto copy akte kelahiran yang telah dilegalisir (1 lampiran)</i></label><br>
+            <div class="choose_file">
+            <input name="img" type="file"><br><br>
+            </div>
+
+            <label for="jk">7. Jenis Kelamin</label><br>
+            <input type="radio" id="lakilaki" name="jk" value="Laki-Laki">Laki-Laki</label> 
+            <input type="radio" id="perempuan" name="jk" value="Perempuan">Perempuan</label><br><br>
+
+            <label for="umur">8. Umur</label><br>
+            <input type="number" id="umur" name="umur"><br><br>
+
+            <label for="agama">9. Agama</label><br>
+            <select name="agama">
+                <option value="islam">Islam</option>
+                <option value="kristen">Kristen</option>
+                <option value="katolik">Katolik</option>
+                <option value="hindu">Hindu</option>
+                <option value="buddha">Buddha</option>
+                <option value="khonghucu">Khonghucu</option>
+            </select><br><br>
+
+            <label for="alamat">10. Alamat :</label><br><br>
+
+            <label for="kel">Desa/Kel</label><br>
+            <input type="text" id="kel" name="kel"><br><br>
+
+            <label for="kec">Kecamatan</label><br>
+            <input type="text" id="kec" name="kec"><br><br>
+
+            <label for="kab">Kabupaten</label><br>
+            <input type="text" id="kab" name="kab"><br><br>
+
+            <label for="prov">Provinsi</label><br>
+            <input type="text" id="prov" name="prov"><br><br>
+
+            <label for="email">11. Email Aktif</label><br>
+            <input type="email" id="email" name="email" ><br><br>
+        </div>
+        
+        <p><b>DATA ORANG TUA :</b></p>
+
+        <div class="style">
+
+            <label><i>(lampirkan KK)</i></label><br>
+            <div class="choose_file">
+            <input name="img" type="file"><br><br>
+            </div>
+
+            <label for="nkk">12. Nomor Kartu Keluarga</label><br>
+            <input type="number" id="nkk" name="nkk" placeholder="330xxxx"><br><br>
+            
+            <label for="ayahk">13. Nama Ayah Kandung</label><br>
+            <input type="text" id="ayahk" name="ayahk"><br><br>
+    
+            <label for="agama">14. Agama</label><br>
+            <select name="agama">
+                <option value="islam">Islam</option>
+                <option value="kristen">Kristen</option>
+                <option value="katolik">Katolik</option>
+                <option value="hindu">Hindu</option>
+                <option value="buddha">Buddha</option>
+                <option value="khonghucu">Khonghucu</option>
+            </select><br><br>
+
+            <label for="pj">15. Pekerjaan</label><br>
+            <input type="text" id="pj" name="pj"><br><br>
+
+            <label for="ibuk">16. Nama Ibu Kandung</label><br>
+            <input type="text" id="ibuk" name="ibuk"><br><br>
+
+            <label for="agama">17. Agama</label><br>
+            <select name="agama">
+                <option value="islam">Islam</option>
+                <option value="kristen">Kristen</option>
+                <option value="katolik">Katolik</option>
+                <option value="hindu">Hindu</option>
+                <option value="buddha">Buddha</option>
+                <option value="khonghucu">Khonghucu</option>
+            </select><br><br>
+
+
+            <label for="pj">18. Pekerjaan</label><br>
+            <input type="text" id="pj" name="pj"><br><br>
+
+            <label for="alamat">19. Alamat Orang Tua :</label><br><br>
+
+            <label for="kel">Desa/Kel</label><br>
+            <input type="text" id="kel" name="kel"><br><br>
+
+            <label for="kec">Kecamatan</label><br>
+            <input type="text" id="kec" name="kec"><br><br>
+
+            <label for="kab">Kabupaten</label><br>
+            <input type="text" id="kab" name="kab"><br><br>
+
+            <label for="prov">Provinsi</label><br>
+            <input type="text" id="prov" name="prov"><br><br>
+
+        </div>
+
+        <input type="submit" name="submit" value="Kirim">
+
+    </form>
+    
+</body>
+</html>
